@@ -52,20 +52,18 @@ We strongly recommend that test takers use a joystick and rudder pedals for prac
 ## Compatibility:
 This test is compatible with PC, mobile, and tablets.
 
-![Compatibility](<img src="./advanced-control-test-app/src/utills/images/computer_tablet_phoneimage.jpg" alt="computer_tablet_phoneimage.jpg"></img>)
-
 ---
 
 ## Performance Scores
 
 ### Easy
-- Your Average Score: ![user.easy](0)%
+- Your Average Score: !(0)%
 - Global Score: 100%
 
 ### Medium
-- Your Average Score: ![user.medium](0)%
+- Your Average Score: !(0)%
 - Global Score: 98%
 
 ### Hard
-- Your Average Score: ![user.hard](0)%
+- Your Average Score: !(0)%
 - Global Score: 85%
