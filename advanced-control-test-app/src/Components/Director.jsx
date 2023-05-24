@@ -28,20 +28,20 @@ function Director({onScoreChange}) {
 
             switch (currentKey) {
                 case "ArrowUp":
-                    setLineVPos((prev) => prev - 5);
-                    setBgPosY(prev => prev + 5)
-                    break;
-                case "ArrowDown":
                     setLineVPos((prev) => prev + 5);
                     setBgPosY(prev => prev - 5)
                     break;
-                case "ArrowLeft":
-                    setLineHPos((prev) => prev - 5);
-                    setBgPosX(prev => prev + 5)
+                case "ArrowDown":
+                    setLineVPos((prev) => prev - 5);
+                    setBgPosY(prev => prev + 5)
                     break;
-                case "ArrowRight":
+                case "ArrowLeft":
                     setLineHPos((prev) => prev + 5);
                     setBgPosX(prev => prev - 5)
+                    break;
+                case "ArrowRight":
+                    setLineHPos((prev) => prev - 5);
+                    setBgPosX(prev => prev + 5)
                     break;
                 default:
                     break;
